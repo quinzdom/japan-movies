@@ -13,7 +13,7 @@ export default function Home() {
 
   useEffect(() => {
     const fetchMovies = async () => {
-      const apiKey = 'YOUR_TMDB_API_KEY'; // Replace with your actual TMDB API key
+      const apiKey = 'f1f26b70535077d426a9090b0ad947e8'; // Replace with your actual TMDB API key
       const response = await fetch(
         `https://api.themoviedb.org/3/movie/top_rated?api_key=${apiKey}&language=en-US&page=1`
       );
